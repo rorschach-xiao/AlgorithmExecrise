@@ -1,3 +1,2 @@
 ﻿  solution.cpp
-e:\学科资料\algorithm\oj_project\kthelement\kthelement\solution.cpp(76): warning C4715: “KthElement::QuickSortMethod”: 不是所有的控件路径都返回值
-  KthElement.vcxproj -> E:\学科资料\algorithm\OJ_project\KthElement\Debug\KthElement.exe
+  KthElement.vcxproj -> C:\Users\肖阳\source\repos\KthElement\Debug\KthElement.exe

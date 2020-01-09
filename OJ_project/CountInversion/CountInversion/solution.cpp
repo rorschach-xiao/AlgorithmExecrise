@@ -22,9 +22,9 @@ CountInverse::~CountInverse() {
 int CountInverse::merge(int left, int mid, int right) {
 	//count the number of inversion
 	int i = mid, j = right;
-	int count = 0;
+	long long int count = 0;
 	while (i >= left && j > mid) {
-		if (arr[i] > arr[j] * 3) {
+		if (arr[i] > (long long)arr[j] * 3) {
 			count += j - mid;
 			i--;
 		}

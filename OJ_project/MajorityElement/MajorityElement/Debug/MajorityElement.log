@@ -1,0 +1,7 @@
+﻿  solution.cpp
+c:\users\肖阳\source\repos\majorityelement\majorityelement\solution.cpp(23): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=__int64
+          ]
+  MajorityElement.vcxproj -> C:\Users\肖阳\source\repos\MajorityElement\Debug\MajorityElement.exe

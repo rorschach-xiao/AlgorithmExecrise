@@ -1,0 +1,5 @@
+﻿  solution.cpp
+c:\users\肖阳\source\repos\longestpalindrome\longestpalindrome\solution.cpp(12): warning C4018: “<=”: 有符号/无符号不匹配
+c:\users\肖阳\source\repos\longestpalindrome\longestpalindrome\solution.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\肖阳\source\repos\longestpalindrome\longestpalindrome\solution.cpp(15): warning C4018: “>”: 有符号/无符号不匹配
+  LongestPalindrome.vcxproj -> C:\Users\肖阳\source\repos\LongestPalindrome\Debug\LongestPalindrome.exe

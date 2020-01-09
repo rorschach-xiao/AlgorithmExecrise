@@ -1,0 +1,34 @@
+\documentclass[11pt]{ctexart}  
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}  
+\usepackage{algorithm}  
+\usepackage{algorithmicx}  
+\usepackage{algpseudocode}  
+\usepackage{amsmath}  
+\usepackage{ctex}
+  
+\floatname{algorithm}{算法}  
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}  
+\renewcommand{\algorithmicensure}{\textbf{输出:}}  
+
+
+\begin{document}  
+	\begin{algorithm}  
+		\caption{最小完成时间计算}  
+		\begin{algorithmic}[1] %每行显示行号  
+			\Require  $schedule$工作安排顺序队列
+			\Ensure  $CompletionTime$ 最早完成时间
+			\Function {MinimumCompletionTime}{$schedule$} 
+			\State $n \gets NumberOfJob$
+			\State $CompletionTime \gets 0$
+			\State $SupercomputerEndingTime \gets 0$
+			\For{$i = 1 \to n$} 
+				\State $SupercomputerEndingTime +=schedule[i].p $
+				\If{ $SupercomputerEndingTime+schedule[i].f>CompletionTime $}
+					\State $CompletionTime=SupercomputerEndingTime+schedule[i].f$
+				\EndIf
+			\EndFor  
+			\State \Return $CompletionTime$
+			\EndFunction  
+		\end{algorithmic}  
+	\end{algorithm} 
+\end{document}  

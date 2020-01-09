@@ -1,0 +1,17 @@
+﻿  solution.cpp
+c:\users\肖阳\source\repos\moneyrobbing\moneyrobbing\solution.cpp(16): warning C4244: “return”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=__int64
+          ]
+c:\users\肖阳\source\repos\moneyrobbing\moneyrobbing\solution.cpp(19): warning C4244: “return”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=__int64
+          ]
+c:\users\肖阳\source\repos\moneyrobbing\moneyrobbing\solution.cpp(26): warning C4244: “return”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=__int64
+          ]
+  MoneyRobbing.vcxproj -> C:\Users\肖阳\source\repos\MoneyRobbing\Debug\MoneyRobbing.exe
